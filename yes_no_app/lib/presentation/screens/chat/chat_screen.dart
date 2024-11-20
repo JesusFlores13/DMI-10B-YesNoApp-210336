@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+//import 'package:provider/provider.dart';
+
 import 'package:yes_no_app/presentation/widgets/chat/her_message_bubble.dart';
 import 'package:yes_no_app/presentation/widgets/chat/my_message_bubble.dart';
 import 'package:yes_no_app/presentation/widgets/shared/message_field_box.dart';
@@ -14,10 +16,10 @@ class ChatScreen extends StatelessWidget {
           padding: EdgeInsets.all(4.0),
           child: CircleAvatar(
             backgroundImage: NetworkImage(
-                'https://www.stylist.co.uk/images/app/uploads/2022/06/01105352/jennifer-aniston-crop-1654077521-1390x1390.jpg?w=256&h=256&fit=max&auto=format%2Ccompress'),
+                'https://elcomercio.pe/resizer/v2/LKZGUMVHFZFLZJWDCTULLSSAZU.jpg?auth=1d125c45361da227832fe997d08fa6d064c4925d51060d15eb82cb9eada84e5e&width=1200&height=810&quality=90&smart=true'),
           ),
         ),
-        title: const Text('Mi amor ♥️'),
+        title: const Text('Tony stark ♥️'),
         centerTitle: false,
       ),
       body: _ChatView(),
