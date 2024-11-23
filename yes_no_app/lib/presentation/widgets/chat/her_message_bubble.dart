@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:yes_no_app/domain/entities/message.dart';
 
-class HerMessageBubble extends StatelessWidget {
+class OtherMessageBubble extends StatelessWidget {
   final Message message;
 
-  const HerMessageBubble({super.key, required this.message});
+  const OtherMessageBubble({super.key, required this.message});
 
   @override
   Widget build(BuildContext context) {
